@@ -1,0 +1,55 @@
+@import 'base/variables';
+@import 'base/animation';
+
+* {
+    font-family: 'Museo Sans Cyrl 500',sans-serif;
+    margin: 0;
+    padding: 0;
+}
+@import 'blocks/media';
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/advant';
+@import 'blocks/form';
+@import 'blocks/carousel';
+@import 'blocks/catalog';
+@import 'blocks/comments';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/pageup';
+
+
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+
+
+.main_header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 91px;
+    color: white;
+    font-family: 'Museo Sans Cyrl 700';
+}
+
+h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 42px;
+    color: white;   
+    margin: 0;
+}
+.header_text {
+    display: block;
+    margin-top: 17px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+}

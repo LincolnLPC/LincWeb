@@ -1,0 +1,30 @@
+.promo {
+    padding: 21px 0 93px 0;
+    min-height: 650px;
+    background: url(../img/bg.png) center center/cover no-repeat;
+    &__button {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        a {
+            color: white;
+            &:hover {
+                color: white;
+            }
+        }
+        &__text {
+            margin-top: 18px;
+        }
+    }
+    &__icon {
+        width: 136px;
+    }
+}
+.main_icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 425px;
+    text-align: center;
+    margin-top: 60px;
+}

@@ -1,0 +1,43 @@
+.button {
+    margin-top: 4px;
+    width: 153px;
+    height: 32px;
+    background-color: $main-color;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 19px;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    &_promo {
+        margin-top: 65px;
+        width: 303px;
+        height: 54px;
+        background-color: $main-color;
+        border-radius: 5px;
+        border: none;
+        font-family: MuseoModerno;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 25px;
+        color: white;
+    }
+    &_form {
+        width: 303px;
+        height: 58px;
+        background-color: $main-color;
+        margin-top: 13px;
+        border-radius: 5px;
+        border: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+    }
+}

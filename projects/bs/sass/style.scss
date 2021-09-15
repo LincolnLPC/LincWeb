@@ -1,0 +1,297 @@
+@import 'adaptive/media';
+
+*{
+    font-family: RF Rufo;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%px;
+}
+header {
+    padding: 30px 30px 101px 0px;
+    background-color: #000;
+    height: 100%;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &_nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &_menu {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        font-family: RF Rufo;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 134.3%;
+        letter-spacing: 0.13em;
+        text-transform: uppercase;
+        a {
+            &::after {
+                // position: absolute;
+                content: '';
+                display: block;
+                width: 0px;
+                height: 0px;
+                background-color: red;
+                margin-top: 7px;
+                padding: 1.5px 0;
+                
+            }
+            &:hover {
+    
+                &::after {
+                    // position: absolute;
+                    content: '';
+                    display: block;
+                    width:100%;
+                    height: 3px;
+                    background-color: red;
+                    transition: 0.5s all;
+                    margin-top: 7px;
+                    padding: -2px 0;
+                    
+                }
+            }
+        }
+    }
+    &_shopping {
+        font-family: RF Rufo;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 134.3%;
+        letter-spacing: 0.13em;
+        text-transform: uppercase;
+        &_icon {
+            margin-right: 31px;
+        }
+    }
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+.promo {
+    padding-top: 36px;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+
+    &_header {
+        font-style: normal;
+        font-weight: 100;
+        font-size: 72px;
+        line-height: 103.5%;
+        letter-spacing: 0.025em;
+        text-transform: uppercase;
+    }
+    &_wrapper {
+        display: inline-block;
+        width: 545px;
+        color: white;
+    }
+    &_subheader {
+        margin-top: 49px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 165%;
+        color: #A8A8AA;
+    }
+    &_block {
+        margin-left: 100px;
+        &_item {
+            align-items: center;
+            display: inline-block;
+            height: 250px;
+            width: 250px;
+            position: relative;
+            margin-right: 20px;
+            
+            .title {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 30px;
+                line-height: 103.5%;
+                letter-spacing: 0.025em;
+                text-transform: uppercase;
+                color: white;
+                position: absolute;
+                bottom: 94px;
+                padding: 0 22px;
+            }
+            .text_block {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 154.4%;
+                color: white;
+                position: absolute;
+                bottom: 17px;
+                padding: 0 22px;
+                
+            }
+        }
+
+    }
+    &_item_1 {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0,00, 0.6)), url(/Projects/bs/img/coffe.png) center center/cover no-repeat ;
+        margin-right: 20px;
+        &:hover {
+            cursor: pointer;
+            background: linear-gradient(0deg, rgba(251, 79, 80, 0.7), rgba(251, 79, 80, 0.7)), url(/Projects/bs/img/coffe.png) center center/cover no-repeat ;
+        }
+    }
+    &_item_2 {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0,00, 0.6)), url(/Projects/bs/img/machine.png) center center/cover no-repeat ;
+        &:hover {
+            cursor: pointer;
+            background: linear-gradient(0deg, rgba(251, 79, 80, 0.7), rgba(251, 79, 80, 0.7)), url(/Projects/bs/img/machine.png) center center/cover no-repeat ;
+        }
+    }
+    &_item_3 {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0,00, 0.6)), url(/Projects/bs/img/milk.png) center center/cover no-repeat ;
+        &:hover {
+            cursor: pointer;
+            background: linear-gradient(0deg, rgba(251, 79, 80, 0.7), rgba(251, 79, 80, 0.7)), url(/Projects/bs/img/milk.png) center center/cover no-repeat ;
+        }
+    }
+    &_item_4 {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0,00, 0.6)), url(/Projects/bs/img/barista.png) center center/cover no-repeat ;
+        &:hover {
+            cursor: pointer;
+            background: linear-gradient(0deg, rgba(251, 79, 80, 0.7), rgba(251, 79, 80, 0.7)), url(/Projects/bs/img/barista.png) center center/cover no-repeat ;
+        }
+    }
+    &_item_5 {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0,00, 0.6)), url(/Projects/bs/img/woman.png) center center/cover no-repeat ;
+        &:hover {
+            cursor: pointer;
+            background: linear-gradient(0deg, rgba(251, 79, 80, 0.7), rgba(251, 79, 80, 0.7)), url(/Projects/bs/img/woman.png) center center/cover no-repeat ;
+        }
+    }
+    &_item_6 {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0,00, 0.6)), url(/Projects/bs/img/building.png) center center/cover no-repeat ;
+        &:hover {
+            cursor: pointer;
+            background: linear-gradient(0deg, rgba(251, 79, 80, 0.7), rgba(251, 79, 80, 0.7)), url(/Projects/bs/img/building.png) center center/cover no-repeat ;
+        }
+    }
+    &_item_7 {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0,00, 0.6)), url(/Projects/bs/img/company.png) center center/cover no-repeat ;
+        &:hover {
+            cursor: pointer;
+            background: linear-gradient(0deg, rgba(251, 79, 80, 0.7), rgba(251, 79, 80, 0.7)), url(/Projects/bs/img/company.png) center center/cover no-repeat ;
+        }
+    }
+    &_item_8 {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0,00, 0.6)), url(/Projects/bs/img/milk.png) center center/cover no-repeat ;
+        &:hover {
+            cursor: pointer;
+            background: linear-gradient(0deg, rgba(251, 79, 80, 0.7), rgba(251, 79, 80, 0.7)), url(/Projects/bs/img/milk.png) center center/cover no-repeat ;
+        }
+    }
+}
+.carousel{
+    margin: 0 auto;
+    margin-top: 20px;
+    // width: 1400px;
+    &__inner {
+        position: relative;
+        // width: 120%;
+        // right: 320px;
+
+    
+    }
+    .slick-prev{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-70%);
+        left: 453px;
+        background: none;
+        border: none;
+        z-index: 1;
+       img {
+           width: 21px;
+           height: 50px;
+       }
+    }
+    .slick-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-70%);
+        right: 475px;
+        background: none;
+        border: none;
+    }
+    .slick-slide {
+        opacity: .2;
+    }
+    .slick-active  {
+        opacity: .9;
+    }
+}
+.hamburger {
+    display: none;
+    z-index: 1;
+    background: none;
+    width: 23px;
+    height: 16px;
+    display: flex;
+    flex-direction: column;
+    right: 18px;
+    position: fixed;
+    align-items: flex-end;
+    top: 30px;
+    display: none;
+}
+.line_1 {
+    width: 23px;
+    height: 2px;
+    background: white;
+    display: inline-block;
+    
+}
+.line_2 {
+    width: 19px;
+    height: 2px;
+    background: white;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.line_3 {
+    width: 16px;
+    height: 2px;
+    background: white;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.phone_icon {
+    width: 16px;
+    height: 16px;
+    position: fixed;
+    left: 18px;
+    top: 30px;
+    display: none;
+    img {
+        width: 100%;
+    }
+}
+.item_dis_no {
+    display: none;
+}
+.mobile_item {
+    display: none;
+}
